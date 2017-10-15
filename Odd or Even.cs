@@ -25,8 +25,6 @@ namespace ConsoleApplication3
 
             string Input = Console.ReadLine();
 
-            if (
-                    Input = "q");
 
             double num;
            
@@ -52,7 +50,7 @@ namespace ConsoleApplication3
 
 
 
-                //      // It's a number!
+          
             }
            
             else
