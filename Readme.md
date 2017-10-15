@@ -1,0 +1,1 @@
+Hey so this is killing me slowly but here is a filtering program that takes a number in and then tells you if its odd or even sounds SUPER easy but its taking me a while regardless
