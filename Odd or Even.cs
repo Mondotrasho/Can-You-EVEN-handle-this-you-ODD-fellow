@@ -18,8 +18,18 @@ namespace ConsoleApplication3
 
 
             Console.Write("Check whether a number is even or odd any decimal places will be ignored:\n");    // well just realised if you enter anything but an integer it crashes with an exception google how does parsing work
+            Console.Write("------------------------------------------------------------------------:\n");
+            Console.Write("--------------- ----Enter Number to be judged --------------------------:\n");
+            Console.Write("------------------------------------------------------------------------:\n");
+            Console.Write("--------------------Alternatively Q quits ------------------------------:\n");
+
+            string Input = Console.ReadLine();
+
+            if (
+                    Input = "q");
+
             double num;
-             string Input = Console.ReadLine();
+           
             if (double.TryParse(Input, NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture, out num))
             {
 
@@ -42,16 +52,13 @@ namespace ConsoleApplication3
 
 
 
-
-
-
                 //      // It's a number!
             }
            
             else
                 Console.WriteLine("Come on man thats not a number"); //want it to jump to begining like the old JMP command
             Console.ReadKey(); //wait
-            if 
+            
 
         }
     }
